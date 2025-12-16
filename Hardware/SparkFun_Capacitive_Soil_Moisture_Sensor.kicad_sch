@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun Capacitive Soil Moisture Sensor (Qwiic)")
 		(date "2025-12-02")
-		(rev "v10")
+		(rev "v01")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Malcolm McKellips")
 	)
@@ -1413,6 +1413,159 @@
 				)
 			)
 			(symbol "1.0uF_0603_16V_10%_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Capacitor:2200pF_0603_50V_10%"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2200pF"
+				(at 5.08 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588930837694337024"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized X7R Capacitor"
+				(at 0 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "TODO: PROD_ID"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "2.2nF capacitor X7R unpolarized 2200pF 0.0022uF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2200pF_0603_50V_10%_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2200pF_0603_50V_10%_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -3034,6 +3187,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SparkFun-Resistor:330_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "330"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "RES-00818"
+				(at 0 -6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "330_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "330_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SparkFun-Resistor:4.7k_0603"
 			(pin_numbers
 				(hide yes)
@@ -3180,37 +3479,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Sensor:CAP1203"
+		(symbol "SparkFun-Resistor:560_0603"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
+			(property "Reference" "R"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "CAP1203"
-				(at 0 8.89 0)
+			(property "Value" "560"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Semiconductor-Standard:SO-8"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00001572B.pdf"
-				(at 0 -12.7 0)
+			(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3218,7 +3514,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3-Channel Capacitive Touch Sensor"
+			(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -3227,7 +3523,111 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "IC-14356"
+			(property "Description" "Resistor"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "TODO:PROD_ID"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "560_0603_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0) (xy -1.143 1.016) (xy -0.762 0) (xy -0.381 -1.016) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.381 1.016) (xy 0.762 0) (xy 1.143 -1.016) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "560_0603_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SparkFun-Sensor:CY8CMBR3102"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CY8CMBR3102"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SparkFun-Semiconductor-Standard:SO-8"
 				(at 0 -15.24 0)
 				(effects
 					(font
@@ -3236,8 +3636,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SparkFun Capacitive Touch Sensor I2C CAP1203"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/30/49/infineon-cy8cmbr3002-cy8cmbr3102-cy8cmbr3106s-cy8cmbr3108-cy8cmbr3110-cy8cmbr3116-datasheet-en.pdf"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3245,21 +3645,38 @@
 					(hide yes)
 				)
 			)
-			(symbol "CAP1203_1_1"
+			(property "Description" "Capacitive Touch Sensor"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PROD_ID" "TODO: PROD_ID"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CY8CMBR3102_1_1"
 				(rectangle
-					(start -6.35 7.62)
-					(end 6.35 -7.62)
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
 					(stroke
 						(width 0)
 						(type solid)
 					)
 					(fill
-						(type color)
-						(color 255 255 194 1)
+						(type background)
 					)
 				)
 				(pin power_in line
-					(at -8.89 6.35 0)
+					(at -12.7 3.81 0)
 					(length 2.54)
 					(name "VDD"
 						(effects
@@ -3277,7 +3694,43 @@
 					)
 				)
 				(pin power_in line
-					(at -8.89 -6.35 0)
+					(at -12.7 1.27 0)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -12.7 -1.27 0)
+					(length 2.54)
+					(name "CMOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -3.81 0)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -3294,64 +3747,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 8.89 6.35 180)
-					(length 2.54)
-					(name "~{ALERT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin bidirectional line
-					(at 8.89 3.81 180)
+					(at 12.7 3.81 180)
 					(length 2.54)
 					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 8.89 1.27 180)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 -1.27 180)
-					(length 2.54)
-					(name "CS1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3366,10 +3765,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 8.89 -3.81 180)
+				(pin bidirectional line
+					(at 12.7 1.27 180)
 					(length 2.54)
-					(name "CS2"
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name "CS0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3385,9 +3802,9 @@
 					)
 				)
 				(pin passive line
-					(at 8.89 -6.35 180)
+					(at 12.7 -3.81 180)
 					(length 2.54)
-					(name "CS3"
+					(name "GPO0/CS1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3416,7 +3833,7 @@
 		)
 		(uuid "3ab42554-879d-489b-b3b5-efce8ee099e0")
 	)
-	(text "CAP1203"
+	(text "CY8CMBR3102"
 		(exclude_from_sim no)
 		(at 215.9 17.78 0)
 		(effects
@@ -3450,9 +3867,9 @@
 		)
 		(uuid "a7feb410-dba4-49b1-81e8-521dd97773f5")
 	)
-	(text "This connects to the large copper\npour that acts as the capacitor"
+	(text "This connects to the\nlarge copper pour that\nacts as the capacitor"
 		(exclude_from_sim no)
-		(at 223.52 71.12 0)
+		(at 241.3 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,17 +3889,22 @@
 		)
 		(uuid "e5c348d4-8b26-46ad-bce2-9b57650536fd")
 	)
-	(text "I2C Address: 0x28"
+	(text "Default I2C Address: 0x37\n(SW Configurable 0x08-0x77)"
 		(exclude_from_sim no)
-		(at 187.96 91.44 0)
+		(at 205.74 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 132 132 132 1)
 			)
-			(justify left)
 		)
 		(uuid "f7b5f115-b626-4972-8b6e-76581ca152a9")
+	)
+	(junction
+		(at 111.76 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045a2e99-14dd-40d4-8412-846631fe89b3")
 	)
 	(junction
 		(at 45.72 73.66)
@@ -3491,37 +3913,7 @@
 		(uuid "43986595-c7e8-48f3-994d-27873fae3a07")
 	)
 	(junction
-		(at 114.3 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4536141f-6d35-4b81-99b4-c598af0646f1")
-	)
-	(junction
-		(at 114.3 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46ef697b-0b2d-4238-b57d-4c0ccf0cc926")
-	)
-	(junction
-		(at 114.3 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60fe0359-2df2-4516-9e9b-5e361774b1fc")
-	)
-	(junction
-		(at 66.04 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76f01ff6-37e7-463c-ab64-8d716524037d")
-	)
-	(junction
-		(at 218.44 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87397c97-9e55-4a63-9946-4bbc94943c68")
-	)
-	(junction
-		(at 104.14 71.12)
+		(at 101.6 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d555539-69b9-4623-ab6b-7b516ffec916")
@@ -3533,13 +3925,13 @@
 		(uuid "9eb56fbb-5919-4ec6-8aca-85f817840e9c")
 	)
 	(junction
-		(at 114.3 81.28)
+		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74dfff6-ab64-44de-92bf-4d2a4844e9e1")
 	)
 	(junction
-		(at 104.14 73.66)
+		(at 101.6 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7cf6be3-6f71-427f-b8ce-dee44312e73a")
@@ -3556,6 +3948,26 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 83.82) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099a0e6c-69cb-4213-be65-8a1fa15e9f3f")
+	)
+	(wire
+		(pts
+			(xy 233.68 76.2) (xy 236.22 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b926458-5bdc-4639-903b-e9984f0847cc")
+	)
+	(wire
+		(pts
 			(xy 220.98 119.38) (xy 220.98 124.46)
 		)
 		(stroke
@@ -3566,23 +3978,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 71.12) (xy 114.3 73.66)
+			(xy 111.76 66.04) (xy 111.76 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0d869255-c9c5-4663-9a59-dc491c33a00c")
-	)
-	(wire
-		(pts
-			(xy 45.72 73.66) (xy 66.04 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eacf2c4-f194-4633-8ede-94db775eb870")
 	)
 	(wire
 		(pts
@@ -3596,33 +3998,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 68.58) (xy 218.44 68.58)
+			(xy 101.6 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "10285ea1-7a16-4ea0-a80b-7d072370f2f5")
+		(uuid "153e3adf-cd70-4a39-af46-0872995cdeb6")
 	)
 	(wire
 		(pts
-			(xy 218.44 58.42) (xy 218.44 60.96)
+			(xy 233.68 83.82) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "185dc887-d48a-455b-9f32-7f4492517b2e")
-	)
-	(wire
-		(pts
-			(xy 104.14 73.66) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "186b18cf-bb39-4cce-951d-3f78525acd2d")
+		(uuid "1721aaf4-2116-4b94-b06c-b22296a49ebe")
 	)
 	(wire
 		(pts
@@ -3636,23 +4028,23 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 76.2) (xy 223.52 76.2)
+			(xy 190.5 76.2) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1bb8e229-5665-4d1a-9bba-c75cb8e0cfbc")
+		(uuid "18ddd319-26ec-4b48-8b7e-017fc7ac1743")
 	)
 	(wire
 		(pts
-			(xy 185.42 68.58) (xy 187.96 68.58)
+			(xy 111.76 78.74) (xy 114.3 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2012cea0-1cdc-40d1-9023-e99a78caee61")
+		(uuid "1d5814b9-566f-4eb2-a74e-acc447c162ca")
 	)
 	(wire
 		(pts
@@ -3676,13 +4068,23 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 104.14 71.12)
+			(xy 167.64 78.74) (xy 193.04 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28f4e2c9-565c-4ab3-b835-da56d5234519")
+		(uuid "2836ea23-3a21-4eb5-a8f4-9b260179153a")
+	)
+	(wire
+		(pts
+			(xy 220.98 76.2) (xy 220.98 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7ba3d1-5049-45de-b140-5de0e76e6c10")
 	)
 	(wire
 		(pts
@@ -3706,6 +4108,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 76.2) (xy 114.3 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333e43a0-3e38-4359-b9d7-cdb1d250385c")
+	)
+	(wire
+		(pts
 			(xy 45.72 63.5) (xy 45.72 66.04)
 		)
 		(stroke
@@ -3713,6 +4125,36 @@
 			(type default)
 		)
 		(uuid "36535763-b368-4ca2-b8c1-83f7a675eae0")
+	)
+	(wire
+		(pts
+			(xy 233.68 68.58) (xy 236.22 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ea2b2f3-d89f-42f5-92b2-fc9d55106e00")
+	)
+	(wire
+		(pts
+			(xy 190.5 83.82) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480d16f1-346c-4256-b2e7-b3a9a64db70e")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 193.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b6c1724-1a1d-4704-b281-c92b88e1aa8d")
 	)
 	(wire
 		(pts
@@ -3726,7 +4168,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 71.12) (xy 114.3 71.12)
+			(xy 99.06 71.12) (xy 101.6 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3746,6 +4188,27 @@
 	)
 	(polyline
 		(pts
+			(xy 251.46 83.82) (xy 251.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 132 132 132 1)
+		)
+		(uuid "5e3341e9-582c-4b31-8079-dba6f5549d93")
+	)
+	(wire
+		(pts
+			(xy 167.64 78.74) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbbe053-1fc8-4e58-bf92-9d96e928319e")
+	)
+	(polyline
+		(pts
 			(xy 53.34 63.5) (xy 66.04 55.88)
 		)
 		(stroke
@@ -3754,6 +4217,16 @@
 			(color 132 132 132 1)
 		)
 		(uuid "663bf817-1f26-49ea-9891-847a2d02b7ba")
+	)
+	(wire
+		(pts
+			(xy 218.44 76.2) (xy 220.98 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "666f299a-f6b3-4baf-af0d-54fe761ffbf4")
 	)
 	(wire
 		(pts
@@ -3767,17 +4240,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 73.66) (xy 208.28 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e37fc99-a253-415c-903a-2c94701b67c3")
-	)
-	(wire
-		(pts
-			(xy 114.3 81.28) (xy 114.3 83.82)
+			(xy 111.76 81.28) (xy 111.76 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3787,23 +4250,63 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 81.28) (xy 208.28 81.28)
+			(xy 220.98 68.58) (xy 228.6 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "76e18afb-0f93-4205-9ff1-5af7f487a849")
+		(uuid "74ad8a7c-d837-4db4-b84b-60d8fb7b9112")
 	)
 	(wire
 		(pts
-			(xy 66.04 78.74) (xy 66.04 73.66)
+			(xy 226.06 91.44) (xy 228.6 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b0c30db-b358-4435-bfd6-e546c75dd863")
+	)
+	(wire
+		(pts
+			(xy 233.68 91.44) (xy 236.22 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f3cca87-e46a-4932-ac60-9e039e9f434e")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 66.04 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fe071e1-6495-427d-8ad5-f6925bf1d543")
+	)
+	(wire
+		(pts
+			(xy 223.52 83.82) (xy 228.6 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b04922f-9355-4085-98e1-e247329273e5")
+	)
+	(wire
+		(pts
+			(xy 223.52 78.74) (xy 223.52 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1012bb-96bb-4f29-b503-6437e72dd4a4")
 	)
 	(wire
 		(pts
@@ -3817,13 +4320,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 66.04) (xy 185.42 68.58)
+			(xy 218.44 78.74) (xy 223.52 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9fa9c0eb-e895-41f4-8077-8626f6358a95")
+		(uuid "9f533c96-7cd4-4cec-8af0-68a163d38085")
 	)
 	(polyline
 		(pts
@@ -3838,7 +4341,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 66.04)
+			(xy 111.76 63.5) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3859,13 +4362,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 73.66) (xy 114.3 76.2)
+			(xy 177.8 88.9) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae27d3b7-cc91-40cd-9165-4d1e739c2396")
+		(uuid "ae0be800-2e1f-4bfd-b54a-e633538d680e")
 	)
 	(wire
 		(pts
@@ -3879,43 +4382,43 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 71.12) (xy 208.28 71.12)
+			(xy 223.52 81.28) (xy 223.52 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3542f5e-c85e-4214-bb27-6047e84e39ea")
+		(uuid "b5a2d3ef-4e68-439f-92fa-933fc7edb8a8")
 	)
 	(wire
 		(pts
-			(xy 218.44 66.04) (xy 218.44 68.58)
+			(xy 101.6 73.66) (xy 114.3 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b62589c1-e4f1-47b4-866b-481cff970f68")
+		(uuid "b7898087-2b74-43c6-91ff-75dad0731fe7")
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 185.42 83.82)
+			(xy 218.44 81.28) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c269c4cd-84d0-486a-899d-dae42db9bf13")
+		(uuid "b884f294-de64-486b-8dde-1abaf094027e")
 	)
 	(wire
 		(pts
-			(xy 185.42 81.28) (xy 187.96 81.28)
+			(xy 190.5 83.82) (xy 193.04 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c2ca65c6-8c7b-4cc3-bbde-ea6339606908")
+		(uuid "bd22b2dc-34e6-44fb-8978-7e92ecc6b33d")
 	)
 	(wire
 		(pts
@@ -3926,16 +4429,6 @@
 			(type default)
 		)
 		(uuid "c5088469-c448-4c5d-b848-61e27295bca9")
-	)
-	(wire
-		(pts
-			(xy 114.3 66.04) (xy 114.3 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c95ff8b3-762e-4846-9577-4c4d99e4ad16")
 	)
 	(polyline
 		(pts
@@ -3950,7 +4443,27 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 73.66) (xy 68.58 73.66)
+			(xy 218.44 83.82) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3a7320-b65c-4714-8818-f01d38dbbcec")
+	)
+	(wire
+		(pts
+			(xy 220.98 83.82) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ca61e2-41da-46f3-a4b3-8e5c57eb5fc3")
+	)
+	(wire
+		(pts
+			(xy 45.72 73.66) (xy 68.58 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3967,16 +4480,6 @@
 			(type default)
 		)
 		(uuid "d670e3f6-78e4-4911-b4f0-1ba3e5ebb223")
-	)
-	(wire
-		(pts
-			(xy 205.74 78.74) (xy 210.82 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7fc954-d515-456b-8999-ecc7994ee718")
 	)
 	(wire
 		(pts
@@ -4000,13 +4503,43 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 114.3 81.28)
+			(xy 111.76 78.74) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e8336097-1af3-4139-af4f-bd91af60ffb2")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e928eb8d-ea7b-4a49-8791-b09868d587dd")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a3dd8d-1ab3-4094-8256-a4bee51dabea")
+	)
+	(wire
+		(pts
+			(xy 223.52 76.2) (xy 228.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef713938-abf8-412a-93b8-96e0728142c1")
 	)
 	(wire
 		(pts
@@ -4020,7 +4553,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 104.14 73.66)
+			(xy 99.06 73.66) (xy 101.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4030,7 +4563,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 101.6 71.12 180)
+		(at 99.06 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4040,7 +4573,7 @@
 		)
 		(uuid "1a5c3ff5-f391-483a-a5d0-8a146895ee29")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9959 71.12 0)
+			(at 91.4559 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4585,7 @@
 	)
 	(global_label "TO_CAP_PLATE"
 		(shape output)
-		(at 223.52 76.2 0)
+		(at 236.22 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4062,7 +4595,7 @@
 		)
 		(uuid "2617d8bc-db80-4813-8bfc-57c4f112172a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.0733 76.2 0)
+			(at 242.7733 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4629,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 208.28 71.12 0)
+		(at 236.22 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4106,7 +4639,7 @@
 		)
 		(uuid "43ef1c27-bb0f-4884-9b48-3b79d02a971c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.8333 71.12 0)
+			(at 242.7733 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4651,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 208.28 73.66 0)
+		(at 236.22 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4128,7 +4661,7 @@
 		)
 		(uuid "71af0598-b318-4f69-845f-1ebc083be46d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8841 73.66 0)
+			(at 243.8241 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4695,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 101.6 73.66 180)
+		(at 99.06 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4172,7 +4705,7 @@
 		)
 		(uuid "f0fc4333-8aec-465f-8d21-63071989ae05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.9354 73.66 0)
+			(at 91.3954 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,6 +4910,100 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Sensor:CY8CMBR3102")
+		(at 205.74 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21a375f9-be62-4587-a1a6-ebd73231923b")
+		(property "Reference" "U1"
+			(at 205.74 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CY8CMBR3102"
+			(at 205.74 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SO-8"
+			(at 205.74 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/assets/row/public/documents/30/49/infineon-cy8cmbr3002-cy8cmbr3102-cy8cmbr3106s-cy8cmbr3108-cy8cmbr3110-cy8cmbr3116-datasheet-en.pdf"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitive Touch Sensor"
+			(at 205.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "TODO: PROD_ID"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7eca93ab-f383-4a37-9014-45ca5fe7f799")
+		)
+		(pin "5"
+			(uuid "ce85a4fc-6d53-4dc3-ae94-295ef31315d5")
+		)
+		(pin "1"
+			(uuid "0519ed77-9bc0-4d13-8de4-c193c58faa4c")
+		)
+		(pin "6"
+			(uuid "ce84e4a8-d99c-4d1d-a990-f72783540973")
+		)
+		(pin "3"
+			(uuid "2a469c7e-0ce1-4b5a-bd0c-b4d3f8a1ca9c")
+		)
+		(pin "2"
+			(uuid "3d4ca7a2-4b9c-495d-8ed2-099a580dc8b2")
+		)
+		(pin "8"
+			(uuid "c8531314-8dbb-41d4-9a5b-e25df21bf618")
+		)
+		(pin "7"
+			(uuid "885c0687-4863-45eb-9060-048ff301cf94")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:4.7k_0603")
 		(at 86.36 160.02 90)
 		(unit 1)
@@ -4457,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 185.42 83.82 0)
+		(at 190.5 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4466,7 +5093,7 @@
 		(fields_autoplaced yes)
 		(uuid "3715498d-54de-4f3d-8126-bd2c948d08b4")
 		(property "Reference" "#PWR02"
-			(at 185.42 90.17 0)
+			(at 190.5 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +5102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 87.63 0)
+			(at 190.5 90.17 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4484,7 +5111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 83.82 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +5120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 83.82 0)
+			(at 190.5 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4502,7 +5129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 92.71 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4517,6 +5144,82 @@
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:330_0603")
+		(at 231.14 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4efda8f4-1915-4082-b717-55723ed3f445")
+		(property "Reference" "R5"
+			(at 231.14 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 231.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 231.14 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 231.14 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-00818"
+			(at 231.14 83.058 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0962de61-7dae-46be-9e27-cd7ad09e816a")
+		)
+		(pin "2"
+			(uuid "2f103ae9-1749-4a0c-974c-32f48d4e2328")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4602,73 +5305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 208.28 81.28 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "535c207a-dc7d-427f-b9cb-10078f4159ed")
-		(property "Reference" "TP3"
-			(at 208.28 86.36 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 208.28 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 208.28 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 208.28 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcc82d6a-ffaa-49f8-bb10-c0d037a47c9f")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 257.81 175.26 0)
 		(unit 1)
@@ -4726,6 +5362,73 @@
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 177.8 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "574c2d40-7bbf-47fd-87ea-e39e0fb92e44")
+		(property "Reference" "#PWR08"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8455ea83-1f72-4bf3-85f5-6c5d7e7493c6")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4963,7 +5666,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 104.14 71.12 0)
+		(at 101.6 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4972,7 +5675,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dbbec49-3ff8-4690-a8ee-666434e83150")
 		(property "Reference" "TP7"
-			(at 104.14 66.04 0)
+			(at 101.6 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4981,7 +5684,7 @@
 			)
 		)
 		(property "Value" "1.0mm"
-			(at 104.14 74.93 0)
+			(at 101.6 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5693,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 104.14 77.47 0)
+			(at 101.6 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 78.74 0)
+			(at 101.6 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5711,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 104.14 81.28 0)
+			(at 101.6 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5023,6 +5726,73 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:GND")
+		(at 167.64 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62ad464c-5d0e-4274-a78c-c93871c3c152")
+		(property "Reference" "#PWR011"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 95.25 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa55917b-4476-469b-81ff-40bb63eb3eac")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -5129,7 +5899,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 66.04 73.66 0)
+		(at 66.04 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5138,7 +5908,7 @@
 		(fields_autoplaced yes)
 		(uuid "724239ee-2d45-4dba-a523-f7dc84e911b5")
 		(property "Reference" "#PWR07"
-			(at 66.04 77.47 0)
+			(at 66.04 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5147,7 +5917,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 66.04 69.85 0)
+			(at 66.04 64.77 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5156,7 +5926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 73.66 0)
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5165,7 +5935,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 73.66 0)
+			(at 66.04 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5174,7 +5944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 66.04 80.01 0)
+			(at 66.04 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5196,7 +5966,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 185.42 66.04 0)
+		(at 190.5 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,7 +5975,7 @@
 		(fields_autoplaced yes)
 		(uuid "73c0ffb9-e515-4120-83bf-ceef3c08414f")
 		(property "Reference" "#PWR01"
-			(at 185.42 69.85 0)
+			(at 190.5 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5984,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 185.42 62.23 0)
+			(at 190.5 69.85 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5223,7 +5993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 66.04 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5232,7 +6002,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 66.04 0)
+			(at 190.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,7 +6011,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 185.42 72.39 0)
+			(at 190.5 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5263,7 +6033,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 114.3 83.82 0)
+		(at 111.76 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5271,7 +6041,7 @@
 		(dnp no)
 		(uuid "79172ab3-2724-4e7d-999c-e134984d709d")
 		(property "Reference" "#PWR0105"
-			(at 114.3 90.17 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5280,7 +6050,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 87.63 0)
+			(at 111.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +6058,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 83.82 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5297,7 +6067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 83.82 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5306,7 +6076,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 83.82 0)
+			(at 111.76 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +6098,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 114.3 66.04 90)
+		(at 111.76 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5337,7 +6107,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d19394b-c493-47e0-b2b6-5e14f5024867")
 		(property "Reference" "TP5"
-			(at 109.22 66.04 0)
+			(at 106.68 66.04 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5346,7 +6116,7 @@
 			)
 		)
 		(property "Value" "1.0mm"
-			(at 118.11 66.04 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +6125,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 120.65 66.04 0)
+			(at 118.11 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +6134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 66.04 0)
+			(at 119.38 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +6143,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 124.46 66.04 0)
+			(at 121.92 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,9 +6236,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8138ae9b-4875-4f28-8e68-8be1f6f91dbc")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 43.18 67.3099 90)
 			(effects
 				(font
@@ -5531,7 +6300,83 @@
 		(instances
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "R3")
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Resistor:4.7k_0603")
+		(at 231.14 91.44 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e8df8a-ddbb-47e0-ac21-6e9e6c50faca")
+		(property "Reference" "R7"
+			(at 231.14 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 231.14 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 231.14 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 231.14 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-07857"
+			(at 231.14 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20561a94-a8cf-4a00-aa33-e578bfc4b44f")
+		)
+		(pin "1"
+			(uuid "318432f0-9164-48f0-8707-00069427eaf9")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5605,168 +6450,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 218.44 68.58 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "85c0535d-b655-4aa7-bff0-0e17fd94f344")
-		(property "Reference" "TP1"
-			(at 218.44 73.66 0)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.0mm"
-			(at 218.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 218.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Test Point"
-			(at 218.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63165b40-1783-4694-8578-7c0b146a06d1")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Sensor:CAP1203")
-		(at 196.85 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f22bc7d-0122-4193-95d9-4f5d4af2457e")
-		(property "Reference" "U1"
-			(at 196.85 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAP1203"
-			(at 196.85 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Semiconductor-Standard:SO-8"
-			(at 196.85 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00001572B.pdf"
-			(at 196.85 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-Channel Capacitive Touch Sensor"
-			(at 196.85 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "IC-14356"
-			(at 196.85 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "68aa9885-0a00-448d-9c7f-534ffff9fe33")
-		)
-		(pin "4"
-			(uuid "69ffe353-1608-4e56-b08e-0a6e1122419a")
-		)
-		(pin "5"
-			(uuid "fa4fbb5c-99e1-4e7f-ac4b-a9f699c070fc")
-		)
-		(pin "1"
-			(uuid "a402a594-367a-41b6-bd37-dbfa447d1fcc")
-		)
-		(pin "2"
-			(uuid "ef50085b-5521-4f3d-bf4a-512ddf8095e8")
-		)
-		(pin "3"
-			(uuid "31c4f909-ae95-46ca-9ceb-582b80921f21")
-		)
-		(pin "6"
-			(uuid "d5deba61-6aaa-4896-b6cf-636f6faca1c4")
-		)
-		(pin "7"
-			(uuid "78c0be78-83a5-46d6-bd6d-3b9fd62d744c")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SparkFun-Aesthetic:OSHW_Logo")
 		(at 255.27 163.83 0)
 		(unit 1)
@@ -5832,7 +6515,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 114.3 81.28 90)
+		(at 111.76 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5841,7 +6524,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7ee2fd6-5e2e-4c35-b41d-c6f406c9764d")
 		(property "Reference" "TP4"
-			(at 109.22 81.28 0)
+			(at 106.68 81.28 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5850,7 +6533,7 @@
 			)
 		)
 		(property "Value" "1.0mm"
-			(at 118.11 81.28 0)
+			(at 115.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5859,7 +6542,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 120.65 81.28 0)
+			(at 118.11 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5868,7 +6551,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 81.28 0)
+			(at 119.38 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +6560,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 124.46 81.28 0)
+			(at 121.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5892,6 +6575,149 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-LED:LED_Red_0603")
+		(at 223.52 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aede7ae0-5bb7-4e06-bea6-265d2a0925e4")
+		(property "Reference" "D2"
+			(at 223.52 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Red"
+			(at 223.7984 88.6709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-LED:LED_0603_1608Metric_Red"
+			(at 223.52 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.kingbrightusa.com/images/catalog/SPEC/APT1608SURCK.pdf"
+			(at 223.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 223.52 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "DIO-17976"
+			(at 223.52 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "126e2f14-1ffe-4393-8863-7e3e233a32e4")
+		)
+		(pin "2"
+			(uuid "c4951b96-e6cb-4bf3-95a5-95a4f5c20c3a")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-PowerSymbol:3.3V")
+		(at 236.22 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afac5db2-0073-4357-99e1-b44de993f150")
+		(property "Reference" "#PWR012"
+			(at 236.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 236.22 87.63 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3.3V\""
+			(at 236.22 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79948be5-8cc1-4ebf-9a3e-65d384301e6a")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -5963,7 +6789,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 104.14 73.66 180)
+		(at 101.6 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5972,7 +6798,7 @@
 		(fields_autoplaced yes)
 		(uuid "b77b4750-a39e-4db3-ba15-02ebd0ecc1df")
 		(property "Reference" "TP6"
-			(at 104.14 78.74 0)
+			(at 101.6 78.74 0)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -5981,7 +6807,7 @@
 			)
 		)
 		(property "Value" "1.0mm"
-			(at 104.14 69.85 0)
+			(at 101.6 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +6816,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 104.14 67.31 0)
+			(at 101.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 66.04 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6834,7 @@
 			)
 		)
 		(property "Description" "Test Point"
-			(at 104.14 63.5 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6100,7 +6926,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 114.3 63.5 0)
+		(at 111.76 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6108,7 +6934,7 @@
 		(dnp no)
 		(uuid "bc87c9b6-af5e-4036-96c6-ec43a6bb2f35")
 		(property "Reference" "#PWR0108"
-			(at 114.3 67.31 0)
+			(at 111.76 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6943,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 114.3 59.944 0)
+			(at 111.76 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6951,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 63.5 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 63.5 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 114.3 63.5 0)
+			(at 111.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6158,6 +6984,104 @@
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
+		(at 167.64 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf26ac0c-7c31-4029-b94b-b3cb90e3facc")
+		(property "Reference" "C4"
+			(at 170.18 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 170.18 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
+			(at 167.64 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CAP-00810"
+			(at 167.64 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 170.18 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 170.18 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88bb6709-b37b-404d-a90b-41ddfbc8801d")
+		)
+		(pin "2"
+			(uuid "c783b7fd-0656-4647-997b-98165d5c79cb")
+		)
+		(instances
+			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -6322,6 +7246,82 @@
 		)
 	)
 	(symbol
+		(lib_id "SparkFun-Resistor:330_0603")
+		(at 231.14 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd7c1a58-50d4-473a-92b7-e6a9be159585")
+		(property "Reference" "R4"
+			(at 231.14 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 231.14 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
+			(at 231.14 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 231.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "RES-00818"
+			(at 231.14 75.438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f0640e4-2808-4812-be13-62cecc4b04ba")
+		)
+		(pin "2"
+			(uuid "d668173e-672b-4e4e-abd1-738eecf4e775")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Resistor:2.2k_0603")
 		(at 55.88 68.58 270)
 		(unit 1)
@@ -6331,7 +7331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d018da8c-8b50-4b3a-966a-d9173ef06306")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 58.42 67.3099 90)
 			(effects
 				(font
@@ -6394,7 +7394,7 @@
 		(instances
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6468,26 +7468,34 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:TestPoint_1.0mm")
-		(at 210.82 78.74 180)
+		(lib_id "SparkFun-Capacitor:2200pF_0603_50V_10%")
+		(at 177.8 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d971d6c0-5039-4514-b308-a0da5dbe4c9c")
-		(property "Reference" "TP2"
-			(at 210.82 83.82 0)
-			(do_not_autoplace yes)
+		(uuid "db8ccc4b-e6cb-41fc-b32c-44ea62101a25")
+		(property "Reference" "C3"
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "1.0mm"
-			(at 210.82 74.93 0)
+		(property "Value" "2200pF"
+			(at 180.34 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
+			(at 177.8 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,8 +7503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:TestPoint-1.0mm"
-			(at 210.82 72.39 0)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588930837694337024"
+			(at 177.8 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,8 +7512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 210.82 71.12 0)
+		(property "Description" "Unpolarized X7R Capacitor"
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,124 +7521,77 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Test Point"
-			(at 210.82 68.58 0)
+		(property "PROD_ID" "TODO: PROD_ID"
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Voltage" "50V"
+			(at 180.34 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 180.34 90.1762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "deea5d2a-4478-46b3-86c8-8ebb612582b1")
 		)
 		(pin "1"
-			(uuid "60a15e28-6c4c-4b71-89b5-0aff62b649fe")
+			(uuid "d008267c-78bf-419b-97ef-642409fedbd6")
 		)
 		(instances
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "TP2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 218.44 58.42 0)
+		(lib_id "SparkFun-Resistor:560_0603")
+		(at 231.14 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e283853d-ed32-4ebd-9b82-aba9847c7f8a")
-		(property "Reference" "#PWR08"
-			(at 218.44 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 218.44 54.61 0)
-			(do_not_autoplace yes)
+		(uuid "e3f47aea-538b-423f-8358-6ef4908c7f5a")
+		(property "Reference" "R6"
+			(at 231.14 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 218.44 58.42 0)
+		(property "Value" "560"
+			(at 231.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 218.44 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "512d02f0-013a-4580-a480-db06aeee07f4")
-		)
-		(instances
-			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Resistor:2.2k_0603")
-		(at 218.44 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6abe6cf-72a4-4ab4-90dd-a29f9a891b85")
-		(property "Reference" "R2"
-			(at 220.98 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2k"
-			(at 220.98 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SparkFun-Resistor:R_0603_1608Metric"
-			(at 214.122 63.5 0)
+			(at 231.14 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6639,7 +7600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 209.55 63.5 0)
+			(at 231.14 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +7609,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 63.5 0)
+			(at 231.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,8 +7617,8 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-08272"
-			(at 211.582 63.5 0)
+		(property "PROD_ID" "TODO:PROD_ID"
+			(at 231.14 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,15 +7627,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "ca29fa10-864c-4135-9d87-c8a9d5cbd30b")
+			(uuid "7a208f1f-2167-4d01-b6fe-de0ee4d0385a")
 		)
 		(pin "1"
-			(uuid "6b5a5167-b978-4f5e-9d04-0a963796b14b")
+			(uuid "6a0cc0ff-b55c-4dcb-b98c-a845b375bf9b")
 		)
 		(instances
-			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
+			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6755,7 +7716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8f14ad3-c676-4635-8ffc-061583185702")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 50.8 67.31 0)
 			(effects
 				(font
@@ -6810,7 +7771,7 @@
 		(instances
 			(project "SparkFun_Capacitive_Soil_Moisture_Sensor"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "JP1")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
