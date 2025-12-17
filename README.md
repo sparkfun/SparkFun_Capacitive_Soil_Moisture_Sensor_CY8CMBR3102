@@ -1,1 +1,1 @@
-# SparkFun_Capacitive_Soil_Moisture_Sensor
+SparkFun_Capacitive_Soil_Moisture_Sensor_CY8CMBR3102
