@@ -4212,6 +4212,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 93.98) (xy 220.98 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004c2a2b-7082-4131-a04b-6b5c50902f58")
+	)
+	(wire
+		(pts
+			(xy 228.6 93.98) (xy 231.14 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081d66aa-4bff-44fb-9d98-3832ba21218f")
+	)
+	(wire
+		(pts
 			(xy 55.88 63.5) (xy 58.42 63.5)
 		)
 		(stroke
@@ -4269,6 +4289,16 @@
 			(type default)
 		)
 		(uuid "0fab5ef6-9536-4852-a328-3b657fb97c03")
+	)
+	(wire
+		(pts
+			(xy 223.52 93.98) (xy 220.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12085481-80b8-43b8-b1b8-d9707e906632")
 	)
 	(wire
 		(pts
@@ -4332,6 +4362,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2618a8d8-f3cb-4823-92f8-307e444daa32")
+	)
+	(wire
+		(pts
 			(xy 68.58 81.28) (xy 66.04 81.28)
 		)
 		(stroke
@@ -4359,16 +4399,6 @@
 			(type default)
 		)
 		(uuid "28a9d31b-7fa7-4dc5-9ac3-7e5cf8a8a178")
-	)
-	(wire
-		(pts
-			(xy 220.98 93.98) (xy 223.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29310fca-d662-4343-a489-8a9397a80300")
 	)
 	(wire
 		(pts
@@ -4511,16 +4541,6 @@
 		)
 		(uuid "5fbbe053-1fc8-4e58-bf92-9d96e928319e")
 	)
-	(wire
-		(pts
-			(xy 220.98 83.82) (xy 220.98 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64897950-73f0-477a-baaa-0e2514059fde")
-	)
 	(polyline
 		(pts
 			(xy 55.88 63.5) (xy 68.58 55.88)
@@ -4571,16 +4591,6 @@
 			(type default)
 		)
 		(uuid "74ad8a7c-d837-4db4-b84b-60d8fb7b9112")
-	)
-	(wire
-		(pts
-			(xy 228.6 93.98) (xy 231.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0c30db-b358-4435-bfd6-e546c75dd863")
 	)
 	(wire
 		(pts
@@ -4744,16 +4754,6 @@
 			(color 132 132 132 1)
 		)
 		(uuid "cdb7c758-0c06-4050-86cf-4cd065f26814")
-	)
-	(wire
-		(pts
-			(xy 218.44 83.82) (xy 220.98 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce3a7320-b65c-4714-8818-f01d38dbbcec")
 	)
 	(wire
 		(pts
@@ -7069,7 +7069,6 @@
 	(symbol
 		(lib_id "SparkFun-LED:LED_Blue_0603")
 		(at 226.06 93.98 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7085,7 +7084,7 @@
 			)
 		)
 		(property "Value" "Blue"
-			(at 225.7816 91.2109 0)
+			(at 226.3384 91.2109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
