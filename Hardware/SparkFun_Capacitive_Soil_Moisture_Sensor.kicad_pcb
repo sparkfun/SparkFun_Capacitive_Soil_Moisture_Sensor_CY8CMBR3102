@@ -5944,7 +5944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588930837694337024"
+		(property "Datasheet" "https://www.niccomp.com/wp-content/uploads/catalog/nmc2.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5970,7 +5970,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-27514"
+		(property "PROD_ID" "CAP-07877"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
