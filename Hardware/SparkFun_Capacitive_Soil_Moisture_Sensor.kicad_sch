@@ -7,7 +7,7 @@
 	(title_block
 		(title "SparkFun Capacitive Soil Moisture Sensor (Qwiic)")
 		(date "2025-12-02")
-		(rev "v01")
+		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Malcolm McKellips")
 	)
