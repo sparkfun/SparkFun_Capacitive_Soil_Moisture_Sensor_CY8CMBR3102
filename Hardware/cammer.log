@@ -1,0 +1,28 @@
+2026-01-16 11:12:55,103 - cammer_logger - INFO - Running CAMmer
+2026-01-16 11:12:55,106 - cammer_logger - INFO - ['-l', 'F.Cu,B.Cu,F.Paste,B.Paste,F.Silkscreen,B.Silkscreen,F.Mask,B.Mask', '-e', 'Edge.Cuts,User.Comments,User.1']
+2026-01-16 11:12:55,107 - cammer_logger - INFO - CAMMER START: 2026-01-16T11:12:55.107309
+2026-01-16 11:12:57,473 - cammer_logger - INFO - 
+START: 2026-01-16T11:12:55.107303
+Board saved by user.
+Zones filled by CAMmer.
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTL
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-F_Cu.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTL
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBL
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-B_Cu.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBL
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTP
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-F_Paste.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTP
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBP
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-B_Paste.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBP
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTO
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-F_Silkscreen.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTO
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBO
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-B_Silkscreen.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBO
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTS
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-F_Mask.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GTS
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBS
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-B_Mask.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GBS
+Deleting existing /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GKO
+Renaming /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor-Edge_Cuts.gbr to /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/SparkFun_Capacitive_Soil_Moisture_Sensor.GKO
+Drill report: /home/amo/SparkFun/SparkFun_Capacitive_Soil_Moisture_Sensor/Hardware/drill_report.rpt
+
+2026-01-16 11:12:58,841 - cammer_logger - INFO - CAMmer complete

@@ -1678,6 +1678,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1689,6 +1690,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3120,6 +3122,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3131,6 +3134,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3687,6 +3691,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3698,6 +3703,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5501,6 +5507,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5512,6 +5519,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5956,6 +5964,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5967,6 +5976,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6274,6 +6284,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6285,6 +6296,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6909,6 +6921,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6920,6 +6933,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7393,6 +7407,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -7405,6 +7420,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -8993,6 +9009,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9005,6 +9022,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9810,6 +9828,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9822,6 +9841,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9975,6 +9995,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -9987,6 +10008,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10146,6 +10168,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10158,6 +10181,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10459,6 +10483,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -10471,6 +10496,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11398,6 +11424,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11410,6 +11437,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -14222,9 +14250,9 @@
 				(xy 122.738 67.244108) (xy 122.703892 67.116814) (xy 122.638 67.002686) (xy 122.544814 66.9095)
 				(xy 122.430686 66.843608) (xy 122.430685 66.843607) (xy 122.430684 66.843607) (xy 122.303392 66.8095)
 				(xy 122.171608 66.8095) (xy 122.044315 66.843607) (xy 121.930184 66.909501) (xy 121.837001 67.002684)
-				(xy 121.771107 67.116815) (xy 121.737 67.244108) (xy 108.0267 67.244108) (xy 108.0267 66.380643)
-				(xy 121.543919 66.380643) (xy 121.54392 66.380643) (xy 122.827769 66.380643) (xy 122.82777 66.380643)
-				(xy 122.82777 63.744884) (xy 121.543919 63.744884) (xy 121.543919 66.380643) (xy 108.0267 66.380643)
+				(xy 121.771107 67.116815) (xy 121.737 67.244108) (xy 108.0267 67.244108) (xy 108.0267 66.382924)
+				(xy 121.543919 66.382924) (xy 121.54392 66.382924) (xy 122.827769 66.382924) (xy 122.82777 66.382924)
+				(xy 122.82777 63.744884) (xy 121.543919 63.744884) (xy 121.543919 66.382924) (xy 108.0267 66.382924)
 				(xy 108.0267 59.967643) (xy 108.047265 59.911142) (xy 108.099336 59.881078) (xy 108.15855 59.891519)
 				(xy 108.190722 59.923692) (xy 108.218268 59.971403) (xy 108.303597 60.056732) (xy 108.408103 60.117068)
 				(xy 108.408105 60.117068) (xy 108.408106 60.117069) (xy 108.524664 60.1483) (xy 108.645335 60.1483)
