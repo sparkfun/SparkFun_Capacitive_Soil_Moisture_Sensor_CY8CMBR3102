@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Capacitive Soil Moisture Sensor (Qwiic)")
-		(date "2025-12-02")
+		(date "2026-02-04")
 		(rev "v10")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Malcolm McKellips")
@@ -7946,7 +7946,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f8f14ad3-c676-4635-8ffc-061583185702")
 		(property "Reference" "JP2"
 			(at 53.34 67.31 0)
@@ -7954,10 +7953,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "I2C"
-			(at 53.34 69.85 0)
+			(at 53.34 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
