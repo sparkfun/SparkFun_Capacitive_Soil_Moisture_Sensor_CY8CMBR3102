@@ -10438,7 +10438,7 @@
 	(footprint "kibuzzard-6983799B"
 		(layer "B.Cu")
 		(uuid "cf43a4d1-e4ad-4bb4-ac00-6b3a9952645b")
-		(at 114.584 76 180)
+		(at 115.57 75.565 180)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICJdIiwgIkZvbnRDb21ib0JveCI6ICJGcmVkZHlTcGFyay1SZWd1bGFyIiwgIkhlaWdodEN0cmwiOiAxLjQsICJMYXllckNvbWJvQm94IjogIkYuU2lsa1MiLCAiTGluZVNwYWNpbmdDdHJsIjogMS41LCAiTXVsdGlMaW5lVGV4dCI6ICJNYXggICg1MG1tKSIsICJQYWRkaW5nQm90dG9tQ3RybCI6IDMuMCwgIlBhZGRpbmdMZWZ0Q3RybCI6IDMuMCwgIlBhZGRpbmdSaWdodEN0cmwiOiAzLjAsICJQYWRkaW5nVG9wQ3RybCI6IDMuMCwgIldpZHRoQ3RybCI6IDEuMywgImFkdmFuY2VkQ2hlY2tib3giOiB0cnVlLCAiaW5saW5lRm9ybWF0VGV4dGJveCI6IHRydWUsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-6983799B"
