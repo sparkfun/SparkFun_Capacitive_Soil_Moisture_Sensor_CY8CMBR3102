@@ -11,7 +11,7 @@ If you've never worked with microcontrollers, Arduino (or Python/MicroPython), o
 
 * [SparkFun IoT RedBoard - ESP32 Hookup Guide](https://learn.sparkfun.com/tutorials/iot-redboard-esp32-development-board-hookup-guide)
 * [Getting Started with Arduino IDE V2](https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/)
-* [Setup and USing MicroPython for Beginners](https://learn.sparkfun.com/tutorials/setup-and-using-micropython-for-beginners)
+* [Setup and Using MicroPython for Beginners](https://learn.sparkfun.com/tutorials/setup-and-using-micropython-for-beginners)
 * [Qwiic Info Page](https://www.sparkfun.com/qwiic?)
 
 ## Qwiic Assembly
@@ -39,4 +39,4 @@ After the code initializes you should see capacitance values (in picofarads/pf) 
 
 The Qwiic Soil Moisture Sensor (Capacitive) operates by detecting changes in capacitance in the soil it's inserted into. This works in measuring soil moisture by measuring the soil's change in [relative permittivity (or dielectric constant)](https://en.wikipedia.org/wiki/Relative_permittivity). Put simply, wet soil has a higher relative permittivity than dry soil and therefore the sensor will report higher capacitance values in wet soil. As soil dries out, it loses permittivity and the measured capacitance drops. 
 
-Different soil types and environments can return significantly different capacitance values so it is important to calibrate the Qwiic Soil Moisture Sensor (Capacitive) to get an effective range of capacitance values for the soil it's monitoring. Start by inserting the sensor into a completely dry soil sample. Then place the sensor into a completely saturated sample of the same soil to get the max values. With this range defined, you can create thresholds to trigger events like turning on the Soil Moisture Sensor's blue STAT LED when a threshold is exceeded as demonstrated in Example 03 - LED.
+Different soil types and environments can return significantly different capacitance values so it is important to calibrate the Qwiic Soil Moisture Sensor (Capacitive) to get an effective range of values for the soil it's monitoring. Start by inserting the sensor into a *completely dry* soil sample to get the minimum values for the soil. Then place the sensor into a *completely saturated* sample of the same soil to get the max values. With this range defined, you can create thresholds to trigger events like turning on the Soil Moisture Sensor's blue STAT LED when a threshold is exceeded as demonstrated in Example 03 - LED.
