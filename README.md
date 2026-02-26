@@ -18,7 +18,7 @@ Documentation
 --------------
 * [**Arduino Library**](https://github.com/sparkfun/SparkFun_CY8CMBR3_Arduino_Library) - Arduino library for CY8CMBR3xxx capacitance sensors, specifically for the Qwiic Soil Moisture Sensor (Capacitive).
 * [**Python Package**](https://github.com/sparkfun/qwiic_cy8cmbr3_py) - A Python driver for CY8CMBR3xxx capacitance sensors, specifically for the Qwiic Soil Moisture Sensor (Capacitive).
-* [**Hookup Guide**](https://docs.sparkfun.com/Capacitive_Soil_Moisture_Sensor_CY8CMBR3102/) - A basic guide to get started with the Qwiic Soil Moisture Sensor (Capacitive)
+* [**Hookup Guide**](https://docs.sparkfun.com/SparkFun_Capacitive_Soil_Moisture_Sensor_CY8CMBR3102/introduction/) - A basic guide to get started with the Qwiic Soil Moisture Sensor (Capacitive)
 
 Product Versions
 -----------------
